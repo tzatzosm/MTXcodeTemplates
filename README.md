@@ -14,3 +14,10 @@ To uninstall templates run:
 ```
 make install_templates
 ```
+
+## Coming soon
+
+- Demo project
+- UIViewController templates
+- UIViewController+CollectionView (+UICollectionViewCompositionalLayout boilerplate) templates 
+- Swift UI templates
