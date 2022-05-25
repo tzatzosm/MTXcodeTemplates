@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultCompletionName</key>
+	<string>UICollectionViewCell1</string>
+	<key>Description</key>
+	<string>Generates a UICollectionViewCell.</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<string>1</string>
+	<key>Summary</key>
+	<string>This generates a custom UICollectionViewCell.</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Class:</string>
+			<key>Description</key>
+			<string>The name of the class to create</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_cellName___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>interface</string>
+			<key>Name</key>
+			<string>Class:</string>
+			<key>Description</key>
+			<string>What is the class you are going to extend?</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Values</key>
+			<array>
+				<string>UICollectionViewCell</string>
+				<string>UICollectionReusableView</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>+xib</string>
+			<key>Name</key>
+			<string>Generate interface (xib) file?</string>
+			<key>Description</key>
+			<string>Will your class include a .xib file as well?</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Default</key>
+			<string>false</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>+ViewModel</string>
+			<key>Name</key>
+			<string>With view model?</string>
+			<key>Description</key>
+			<string>Will your class include a view model as well? Suggested for complex view hierarchies.</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Default</key>
+			<string>false</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>+Delegate</string>
+			<key>Name</key>
+			<string>With delegate?</string>
+			<key>Description</key>
+			<string>Will your class include a delegate as well?</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Default</key>
+			<string>false</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
+</plist>
